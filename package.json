@@ -1,0 +1,28 @@
+{
+  "name": "@chenjb/router-register",
+  "description": "Proxy Router Register",
+  "version": "1.0.0",
+  "author": "chenjb <mrjiaobin@163.com>",
+  "private": true,
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/register.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenjiaobin/node-router-register.git"
+  },
+  "typings": "./index.d.ts",
+  "dependencies": {
+    "qs": "latest",
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/koa": "latest",
+    "@types/koa__router": "latest",
+    "axios": "latest"
+  }
+}
